@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Ebitengine main loop</title>
+
+		<style>
+			body {
+				max-width: 900px;
+				margin: 0 auto;
+				margin-bottom: 116px;
+				font-family: sans-serif;
+				font-size: 17px;
+			}
+			h1 {
+				font-size: 26px;
+				margin-top: 16px;
+				margin-bottom: 12px;
+			}
+			code {
+				font-family: monospace;
+				background-color: #efefef;
+				padding: 0 4px;
+				border-radius: 4px;
+			}
+			a {
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1><code>etxt</code> interactive examples</h1>
+		<p>This page links to a few interactive examples from <a href="https://github.com/tinne26/etxt">etxt</a>, a text rendering library made for <a href="https://ebitengine.org">Ebitengine</a>, the open source 2D game engine written in Golang by <a href="https://github.com/hajimehoshi">Hajime Hoshi</a>.</p>
+		<p>Examples have been slightly adapted and compiled to WASM so they can be executed directly on the web:</p>
+		<ul>
+			<li><a href="/words">Words</a>: the example on etxt's <code>README.md</code>. Just words flashing by; nothing special about it.</li>
+			<li><a href="/shaking">Shaking</a>: fun use of a custom draw function that reacts to the user and the context.</li>
+			<li><a href="/colorful">Colorful</a>: another use a custom draw function to make text progressively change color.</li>
+			<li><a href="/bbcode">BBCode</a>: a chatroom simulation where the formatting is done through bbcode-like markup, implemented on top of twines through type embedding.</li>
+			<li><a href="/elastic-sizer">Elastic Sizer</a>: make text into a spring by leveraging the <code>Sizer</code> interface.</li>
+			<li><a href="/cutout">Cutout</a>: an overly fancy example of blend modes being used for cutout text.</li>
+		</ul>
+
+		<p>You can find the original sources at <a href=""><code>etxt/examples/ebiten/</code></a>.</p>
+	</body>
+</html>
