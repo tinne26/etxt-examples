@@ -397,7 +397,7 @@ var Users = []User{
 }
 
 var Chat = []Event{
-	Event{ 0, "Hello, anyone around? [code]Tglpx[/code]", 1, 2 },
+	Event{ 0, "Hello, anyone around?", 1, 2 },
 	Event{ 1, "helloo [i]*waves gopher*[/i]", 4, 5 },
 	Event{ 2, "Silently lurking, we are always around...", 8, 10 },
 	Event{ 2, "You are new here, aren't you [b]@gopher42[/b]..?", 11, 14 },
